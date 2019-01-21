@@ -1,0 +1,37 @@
+img.img.left{
+float:left;
+margin:5px 15px 5px 0;
+}
+img.img.right{
+float:right;
+margin:5px 0 5px 15px;
+}
+img.img.center{
+margin:5px auto;
+display: block;
+}
+img.img {
+max-height: 320px;
+max-width: 320px;
+transition: all 0.3s linear 0s;
+z-index: 1;
+border: 1px solid #EEE;
+background: #FFFFFF;
+padding: 5px;
+}
+img.img:hover {
+cursor:pointer;
+box-shadow: 0 0 5px 5px #eee;
+border: 1px solid #92c528;
+z-index: 10;
+transition: all 0.3s linear 0.3s;
+}
+img.img.left:hover{
+transform:scale(2) translate(88px, 30px);
+}
+img.img.right:hover{
+transform:scale(2) translate(-88px, 30px);
+}
+img.img.center:hover {
+transform:scale(2);
+}
